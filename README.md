@@ -1,4 +1,5 @@
 > https://gymnasium.farama.org/
+> https://gymnasium.farama.org/api/env/
 
 **gymnasium**  
 ```!pip install gymnasium```  
@@ -11,5 +12,9 @@
 ```env.seed()``` initializes random state
 
 *Attributes*  
+```gym.Env.observation_space``` observation space    
 ```gym.Env.action_space``` available actions  
-```gym.Env.reward_range``` rewards
+```gym.Env.reward_range``` rewards  
+```gym.Env.metadata``` metadata  
+```gym.Env.spec``` information used to initialize env
+
